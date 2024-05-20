@@ -1,0 +1,62 @@
+---
+import Check from "./icons/Check.icon.astro";
+
+interface Benefit {
+  id: number;
+  message: string;
+}
+
+const benefits: Benefit[] = [
+  {
+    id: 1,
+    message: "Certeza en cálculos.",
+  },
+  {
+    id: 2,
+    message:
+      "Personal especializado a precio accesible en materia de RH y laboral.",
+  },
+  {
+    id: 3,
+    message:
+      "Ahorro en costos de software, respaldos y actualizaciones de estos.",
+  },
+  {
+    id: 4,
+    message:
+      "Ahorro en multas, recargas y actualizaciones por malos cálculos o errores.",
+  },
+  {
+    id: 5,
+    message: "Factura 100% deducible por el servicio de maquila.",
+  },
+  {
+    id: 6,
+    message: "Ahorro en personal para la creación de departamentos de nómina.",
+  },
+  {
+    id: 7,
+    message:
+      "Información detallada en reportes por área, centro y departamento.",
+  },
+];
+---
+
+<div class="grid md:grid-cols-2 gird-cols-1 items-center gap-5">
+  {
+    benefits.map((benefit) => (
+      <div class="flex  items-center gap-5 ">
+        <div>
+          <Check />
+        </div>
+        <p class="text-xl text-gray font-bold">{benefit.message}</p>
+      </div>
+    ))
+  }
+</div>
+
+<style>
+  /* li {
+    list-style: none;
+  } */
+</style>

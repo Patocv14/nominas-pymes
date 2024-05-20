@@ -1,0 +1,25 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import Services from "../components/Services.astro";
+import Benefits from "../components/Benefits.astro";
+import Quotation from "../components/Quotation";
+import Requirements from "../components/Requirements.astro";
+import MoreInfo from "../components/MoreInfo.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+---
+
+<Layout
+  title="Nomina Pymes"
+  description="Maquila de Nómina es el servicio que te permite contar con profesionistas especializados en el cálculo de la nómina, la determinación de impuestos y los derivados de ella, con la confianza que la información que se le proporciona en veraz y oportuna."
+  
+>
+  <Hero />
+  <Services />
+  <Benefits />
+  <Quotation client:only="react" />
+  <Requirements />
+  <MoreInfo />
+  <Footer />
+</Layout>

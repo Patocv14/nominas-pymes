@@ -1,0 +1,61 @@
+---
+import Dollar from "./icons/Dollar.icon.astro";
+import Bell from "./icons/Bell.icon.astro";
+import Search from "./icons/Search.icon.astro";
+import LighBulb from "./icons/LightBulb.icon.astro";
+---
+
+<div class="my-24 container mx-auto">
+  <h2
+    class="lg:text-6xl text-4xl font-extrabold font-primary uppercase text-center my-24 text-brown"
+  >
+    ¿Cuándo necesitas nuestro servicio?
+  </h2>
+
+  <div class="flex justify-center items-center md:flex-row flex-col gap-20">
+    <div class="bg-primary p-5 shadow-lg rounded-lg w-96 h-[220px]">
+      <div class="py-5 flex justify-center">
+        <Dollar />
+      </div>
+      <p class="text-white-bg text-center text-lg">
+        <span class="font-bold"> Cuando te has dado cuenta que es menor</span>
+        el costo de contratar a un tercero que implementar un departamento de nomina
+      </p>
+    </div>
+    <div class="bg-primary p-5 shadow-lg rounded-lg w-96 h-[220px]">
+      <div class="py-5 flex justify-center">
+        <Bell />
+      </div>
+      <p class="text-white-bg text-center text-lg">
+        Si has sido requerido por
+        <span class="font-bold">diferencias ante el IMSS, INFONAVIT</span>
+        y dependencias locales por impuestos sobre nómina
+      </p>
+    </div>
+  </div>
+  <div
+    class="flex justify-center items-center md:flex-row flex-col gap-20 pt-10"
+  >
+    <div class="bg-primary p-5 shadow-lg rounded-lg w-96 h-[220px]">
+      <div class="py-5 flex justify-center">
+        <Search />
+      </div>
+      <p class="text-white-bg text-center text-lg">
+        Cuando no cuentas con la plataforma o infraestructura adecuada para el
+        <span class="font-bold">cálculo y administración </span>
+        de las remuneraciones
+      </p>
+    </div>
+    <div class="bg-primary p-5 shadow-lg rounded-lg w-96 h-[220px]">
+      <div class="py-5 flex justify-center">
+        <LighBulb />
+      </div>
+      <p class="text-white-bg text-center text-lg">
+        Cuando has decidido
+        <span class="font-bold"> enfocar los esfuerzos </span>
+        de tu departamento de recursos humanos y buscas delegar las actividades técnicas
+        a un tercero
+      </p>
+    </div>
+  </div>
+</div>

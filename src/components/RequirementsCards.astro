@@ -1,0 +1,64 @@
+---
+import Bank from "./icons/Bank.icon.astro";
+import Receipt from "./icons/Receipt.icon.astro";
+import Heart from "./icons/Heart.icon.astro";
+import Person from "./icons/Person.icon.astro";
+import Pen from "./icons/Pen.icon.astro";
+import Folder from "./icons/Folder.icon.astro";
+---
+
+<div
+  class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 place-items-center text-gray text-center text-lg"
+>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="pb-2 flex justify-center">
+      <Bank />
+    </div>
+    <p class="">
+      Entregar firmas digitales de IMSS y SAT con usuario y contraseña, archivos
+      .key ya que son necesarios para el tiembrado de los recibos.
+    </p>
+  </div>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="py-5 flex justify-center">
+      <Heart />
+    </div>
+    <p>
+      El registro patronal del IMSS debe ser propio de su negocio. Proporcionar
+      firma digital con usuario y contraseña.
+    </p>
+  </div>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="py-5 flex justify-center">
+      <Receipt />
+    </div>
+    <p>
+      Los montos de salario son determinados por el cliente para el cálculo. Se
+      ofrece asesoría sie s necesario.
+    </p>
+  </div>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="pb-2 flex justify-center pt-5">
+      <Person />
+    </div>
+    <p class="">
+      La dispersión de nómina y pago de impuestos corre por cuenta del cliente.
+    </p>
+  </div>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="py-5 flex justify-center">
+      <Pen />
+    </div>
+    <p>
+      Firmar carta convenio con detalles del servicio.
+    </p>
+  </div>
+  <div class="bg-white-bg p-5 mb-10 shadow-lg rounded-lg w-96 h-[220px]">
+    <div class="py-5 flex justify-center">
+      <Folder />
+    </div>
+    <p>
+      Entregar información de los trabajadores para el calculo de su nómina.
+    </p>
+  </div>
+</div>
