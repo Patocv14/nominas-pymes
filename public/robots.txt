@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://nominapymes.com
+
+# Sitemaps
+Sitemap: https://nominapymes.com/sitemap-index.xml

@@ -11,7 +11,7 @@ const { title, description, canonical } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<SEO 
 			title={title}
@@ -24,6 +24,7 @@ const { title, description, canonical } = Astro.props;
 		<!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
 		<meta name="generator" content={Astro.generator} />
 		<link rel="stylesheet" href="/base.css">
+		<link rel="sitemap" href="/sitemap-index.xml" />
 		<ViewTransitions />
 	</head>
 	<body class="bg-[#ffff]">
