@@ -16,7 +16,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'hero': "url('/images/hero.jpg')",
+        'hero': "url('/images/hero.webp')",
       }
     },
   },
