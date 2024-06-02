@@ -56,9 +56,9 @@ const Quotation = () => {
         <div className="md:w-1/2 flex justify-center items-center">
           <div>
             <div className=" max-w-3xl">
-              <h3 className="text-secondary lg:text-9xl text-6xl font-primary font-bold uppercase underline text-center mt-10 md:mt-0 mb-5  flow-text break-words">
+              <p className="text-secondary lg:text-9xl text-6xl font-primary font-bold uppercase underline text-center mt-10 md:mt-0 mb-5  flow-text break-words">
                 ${quotation}
-              </h3>
+              </p>
             </div>
             <li className="text-xl text-gray font-bold font-secondary text-center">
               Se generará una factura según la frecuencia de pago
